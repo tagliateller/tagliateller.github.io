@@ -3,6 +3,7 @@ layout: post
 title: Bin ich online ?
 ---
 
+```
 $ azure login
 info:    Executing command login
 |info:    To sign in, use a web browser to open the page https://aka.ms/devicelogin. Enter the code CG4GDNGNW to authenticate.
@@ -75,6 +76,6 @@ data:    customScriptCommandToExecute  String        bash azuregfs.sh
 data:    volumeName                    String        gfsvol                                                                                                   
 data:    DebugSetting       : RequestContent, ResponseContent
 info:    group deployment create command OK
- 
+``` 
 
 
