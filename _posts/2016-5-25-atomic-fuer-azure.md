@@ -24,3 +24,5 @@ $ tar -Szcf rhel-atomic-cloud-7.2-16.x86_64.tar.gz disk.raw
 
 $ gsutil cp rhel-atomic-cloud-7.2-16.x86_64.tar.gz gs://atomicbucket
 
+$ gcloud compute instances create my-atomic-instance --machine-type n1-standard-1 --image rhel-7-2-16-atomic
+
